@@ -1,0 +1,31 @@
+.header{
+    background-color: rgb(0, 225, 255);
+    padding: 25px 0 15px 0;
+    // position: fixed;
+    // top: 0%;
+    // left: 0%;
+    // right: 0%;
+    &__list{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link{
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+        &:hover{
+            color: #F0F2F5;
+        }
+    }
+    &__btn{
+        border: none;
+        cursor: pointer;
+        background-color: transparent;
+        color: black;
+        font-weight: bold;
+        &:hover{
+            color: #F0F2F5;
+        }
+    }
+}
